@@ -1,3 +1,3 @@
-# Haystack Integration Examples
+# NHS Search App \[Pinecone x Haystack\]
 
-Integration examples between Pinecone and [Deepset AI's Haystack library](https://github.com/deepset-ai/haystack) can be found here.
+Here is the code covering the NHS search app presented at the Pinecone x Haystack webinar on 14th July 2022.
