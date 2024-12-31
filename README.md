@@ -8,16 +8,6 @@
 This repository is a collection of sample applications and Jupyter Notebooks that you can run, download, study and modify in order to get hands-on with 
 Pinecone [vector databases](https://www.pinecone.io/learn/vector-database/) and common AI patterns, tools and algorithms.
 
-These examples are ideal for learning and expanding your knowledge of what's possible, but if you're looking for production-ready examples, please see the [docs](../docs) folder.
-
-Each individual example notebook lives in its own directory. A notebook file ends in `.ipynb`, and each individual Notebook demonstrates a different AI technique or usage pattern. 
-
-# How to use Jupyter Notebooks to do AI tasks
-
-This video walks through how to load these Notebooks and get started with Google colab. It is intended as a complement to this getting started guide:
-
-[![How to use Jupyter Notebooks for Machine learning and AI tasks](https://img.youtube.com/vi/1Z8T36sZ9WI/0.jpg)](https://www.youtube.com/watch?v=1Z8T36sZ9WI)
-
 # Getting started 
 
 Running the examples in this repo requires two things, both of which are free: 
@@ -39,7 +29,6 @@ On the left-hand side of the Pinecone dashboard, click the API Keys header. You'
 ![Get your Pinecone API key](./images/pinecone-api-keys.png)
 
 Remember to take note of your environment too, for example: `us-west4-gcp-free`. You'll need this environment value when initializing Pinecone in any project.
-
 
 ## Step 3. Run a notebook via Google Colab
 
@@ -101,25 +90,3 @@ os.environ["PINECONE_API_KEY"] = pinecone_api_key
 ```
 When you click the right-facing arrow to run this code, you'll be prompted with the secure input field as shown in the above screenshot and you can paste your Pinecone API key into this field, which will hide your key from view, yet also make it available to subsequent 
 Notebook cells by setting the `PINECONE_API_KEY` environment variable.
-
-
-### Step 5. Experiment, learn and enjoy!
-
-With these steps complete, you're ready to work through the Notebook to learn AI concepts and get hands-on experience using the world's most performant, cloud-native vector database.
-
-## We love feedback! 
-
-As you work through these examples, if you encounter any problems or things that are confusing or don't work quite right, please [open a new issue :octocat:](https://github.com/pinecone-io/examples/issues/new).
-
-## Getting support and further reading 
-
-Visit our: 
-* [Documentation](https://docs.pinecone.io)
-* [Support forums](https://community.pinecone.io)
-
-## Collaboration
-
-We truly appreciate your contributions to help us improve and maintain this community resource!
-
-If you've got ideas for improvements, want to contribute a quick fix like correcting a typo, or patching an obvious bug, feel free to open a new issue or even a pull request. If you're considering a larger or more involved change to this repository, its organization or the functionality of 
-one of the examples, please first [open a new issue :octocat:](https://github.com/pinecone-io/examples/issues/new) and state your proposed changes so we discuss them together before you invest a ton of time or effort into making changes. Thanks for your understanding and collaboration. 
